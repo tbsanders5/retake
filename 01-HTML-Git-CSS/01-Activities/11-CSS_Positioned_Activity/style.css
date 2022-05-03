@@ -1,0 +1,38 @@
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+#fixed {
+    background-color: #eee;
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+#relative {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    height: 100px;
+}
+
+#absolute {
+    background-color: #999;
+    position: absolute;
+    padding: 20px;
+    bottom: 0;
+    right: -20px;
+    text-align: center;
+}
